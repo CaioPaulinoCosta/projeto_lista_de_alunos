@@ -2,16 +2,38 @@
   include_once("templates/header.php");
 ?>
 
-<div class="container text-center mt-5" style="border: 1px solid black;">
-<div class="row ">
-  <div class="col-12 bg-dark text-light"><h1 class="bold" id="main-title"><?= $alunos["nome"] ?></h1></div>
-  <div class="col-12 mb-5 bg-secondary text-light"><h1 class="display-4">Curso</h1><p><?= $alunos["curso"] ?></p></div>
-  <div class="col-2"><h1>RA</h1><p><?= $alunos["ra"] ?></p></div>
-  <div class="col-2"><h1>P1</h1><p><?= $alunos["p1"] ?></p></div>
-  <div class="col-2"><h1>P2</h1><p><?= $alunos["p2"] ?></p></div>
-  <div class="col-2"><h1>P3</h1><p><?= $alunos["p3"] ?></p></div>
-  <div class="col-2"><h1>P4</h1><p><?= $alunos["p4"] ?></p></div>
-  <div class="col-2"><h1>Média</h1><p><?= $alunos["media"] ?></p></div>
+<div class="container text-center mt-5">
+<div class="row">
+</div>
+<div class="col">
+<h1 class="bold p-4" style="border-bottom: solid #39554d;"><?= $alunos["nome"] ?></h1>
+</div>
+<div class="col mt-4">
+<h1 class="">Curso</h1><p><?= $alunos["curso"] ?></p>
+</div>
+<table class="table">
+  <thead class="bg-thead text-light">
+    <tr>
+      <th scope="col">RA</th>
+      <th scope="col">P1</th>
+      <th scope="col">P2</th>
+      <th scope="col">P3</th>
+      <th scope="col">P4</th>
+      <th scope="col">Média</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="bold"><?= $alunos["ra"] ?></td>
+      <td class="bold"><?= $alunos["p1"] ?></td>
+      <td class="bold"><?= $alunos["p2"] ?></td>
+      <td class="bold"><?= $alunos["p3"] ?></td>
+      <td class="bold"><?= $alunos["p4"] ?></td>
+      <td class="bold"><?= $alunos["media"] ?></td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 </div>
 
