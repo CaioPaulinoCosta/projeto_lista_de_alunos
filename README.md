@@ -17,6 +17,9 @@ MySQL.
 > import the file "projeto-media.sql" found in the database folder;
 > open the project in your localhost.
 
+
+## Visualização do projeto
+![projeto-lista-de-alunos](https://github.com/CaioPaulinoCosta/projetoListaAlunos/assets/130261742/bde44e31-b33a-4a1e-88ca-5d38de47f2b4)
 --- 
 
 ##### Make with 🧠
