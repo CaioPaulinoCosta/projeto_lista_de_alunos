@@ -22,7 +22,7 @@ include_once("templates/header.php");
         <label for="p4">Informe a nota da P4 do aluno:</label>
         <input type="text" class="form-control" id="p4" name="p4" placeholder="Insira a nota da P4" value="" required>
       </div>
-      <button type="submit" class="btn btn-primary">Inserir</button>
+      <button type="submit" class="btn">Inserir</button>
       </div>
       
     </form>

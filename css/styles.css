@@ -19,6 +19,15 @@
   background-color: #39554d; 
   }
   
+  .btn {
+    background-color:#39554d;
+    color: #fff;
+  }
+
+  .btn:hover {
+    background-color:#a6e9d5; 
+    color: #39554d;
+  }
 
   /* HOME */
   #contacts-table {
