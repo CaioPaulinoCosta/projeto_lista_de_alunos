@@ -2,7 +2,6 @@
   include_once("templates/header.php");
 ?>
   <div class="container">
-    <?php include_once("templates/backbtn.html"); ?>
     <h1 id="main-title">Editar contato</h1>
     <form id="create-form" action="<?= $BASE_URL ?>config/process.php" method="POST">
       <input type="hidden" name="type" value="edit">
