@@ -1,0 +1,130 @@
+.navbar-brand img {
+    width: 50px;
+  }
+  
+  #main-title {
+    text-align: center;
+    margin: 15px 0 30px;
+  }
+
+  .bg-navbar {
+    background-color: #a6e9d5; 
+  } 
+
+  .bg-thead{
+    background-color: #39554d; 
+  }
+
+  .bg-modal {
+  background-color: #39554d; 
+  }
+  
+
+  /* HOME */
+  #contacts-table {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  .col-id {
+    font-weight: bold;
+  }
+  
+  .actions {
+    text-align: right;
+    width: 150px;
+  }
+  
+  .actions i {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  .check-icon {
+    color: #39554d;
+  }
+  
+  .check-icon:hover {
+    color: #007BFF;
+  }
+
+  .edit-icon {
+    color: #39554d;
+    transition: .5s;
+  }
+
+  .edit-icon:hover {
+    color: #007BFF;
+  }
+
+  .calculator-icon{
+    color: #39554d;
+    transition: .5s;
+  }
+
+  .calculator-icon:hover{
+    color: #007BFF;
+  }
+  
+  .delete-form {
+    display: inline-block;
+  }
+  
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .delete-icon {
+    color: #BD2130;
+  }
+  
+  #empty-list-text {
+    text-align: center;
+  }
+  
+  #msg {
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  
+  /* SHOW / CONTATO INDIVIDUAL */
+  #view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  #back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+  }
+  
+  
+  /* CREATE */
+  #create-form,
+  #edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* MOBILE */
+  @media(max-width: 480px) {
+  
+    #home-link {
+      display: none;
+    }
+  
+  }
