@@ -19,12 +19,32 @@
   background-color: #39554d; 
   }
   
-  .btn {
+  .bedit {
     background-color:#39554d;
     color: #fff;
   }
 
-  .btn:hover {
+  .bedit:hover {
+    background-color:#a6e9d5; 
+    color: #39554d;
+  }
+
+  .bcreate {
+    background-color:#39554d;
+    color: #fff;
+  }
+
+  .bcreate:hover {
+    background-color:#a6e9d5; 
+    color: #39554d;
+  }
+
+  .bmedia {
+    background-color:#39554d;
+    color: #fff;
+  }
+
+  .bmedia:hover {
     background-color:#a6e9d5; 
     color: #39554d;
   }

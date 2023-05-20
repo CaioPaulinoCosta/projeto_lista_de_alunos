@@ -21,7 +21,7 @@
         <input type="text" class="form-control" id="ra" name="ra" placeholder="Insira o ra do aluno" required>
       </div>
       <div class="row">
-      <div class="col-6 pb-5"><button type="submit" class="btn">Cadastrar</button></div>
+      <div class="col-6 pb-5"><button type="submit" class="btn bcreate">Cadastrar</button></div>
       </div>
     </form>
     </div>

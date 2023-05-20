@@ -18,7 +18,7 @@
         <label for="RA">Informe o RA do aluno:</label>
         <textarea type="text" class="form-control" id="ra" name="ra" placeholder="Insira o RA do aluno" rows="3"><?= $alunos['ra'] ?></textarea>
       </div>
-      <button type="submit" class="btn">Atualizar</button>
+      <button type="submit" class="btn bedit">Atualizar</button>
     </form>
   </div>
 <?php
